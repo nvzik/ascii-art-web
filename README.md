@@ -38,9 +38,9 @@ Your endpoints must return appropriate HTTP status codes.
 After cloning the repository, complete the following commands:
 
     - Run the programm
-        go run .
-        
-      After that command click on the localhost link
+        `go run .` 
+ 
+        `go to the site by following this link http://localhost:8000`
       
     - Create a docker image with the docker file:
         
