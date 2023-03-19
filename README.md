@@ -55,7 +55,3 @@ After cloning the repository, complete the following commands:
 ```
 
 
-## Authors
- #### [@nzharylk](https://01.alem.school/git/nzharylk) & [@abaltaba](https://01.alem.school/git/abaltaba)
-
-
