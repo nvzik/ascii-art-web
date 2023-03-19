@@ -1,0 +1,44 @@
+<style>
+    .code{
+      margin-bottom: 10px;
+    }
+   
+      body {
+	background: linear-gradient(-45deg, #52d7ee, #4733ff);
+	background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
+	height: 100vh;
+    text-align: center;
+         
+         font-family: -apple-system, BlinkMacSystemFont;
+         color: white;
+         /* font-style: inherit; */
+         font-size: 40px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+  </style>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <title>Ascii-Art-Web</title>
+      
+      <link rel="icon" href="/favicon/icon.png" >
+    </head>
+    <body>
+      
+      <p class = "code">{{ .Code }}</p>
+      <p title="error message">{{ .Message }} </p>            
+      <!-- <img src="https://img.freepik.com/free-vector/paper-style-ransom-note-letter-collection_23-2149004288.jpg?w=1800&t=st=1674902685~exp=1674903285~hmac=88c15bfd9371fcab5f68ccc6bcb7e8f599604a9d46ca124eaab852e999f82de5" width="350px" height="250px" alt="alphabet">  -->
+    </body>
+  </html>
