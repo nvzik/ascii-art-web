@@ -37,6 +37,10 @@ Your endpoints must return appropriate HTTP status codes.
 ```bash
 After cloning the repository, complete the following commands:
 
+    - Run the programm
+        go run .
+      After that command click on the localhost link
+      
     - Create a docker image with the docker file:
         
         docker build -t ascii-art-docker .
