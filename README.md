@@ -1,5 +1,5 @@
 
-# Ascii-art-web-dockerize
+# Ascii-art-web
 
 A brief description of what this project does and who it's for
 
@@ -8,7 +8,7 @@ A brief description of what this project does and who it's for
 
 Any additional information goes here
 
-Ascii-art-web-stylize consists in creating and running a server, in which it will be possible to use a web GUI (graphical user interface) version of your last project, ascii-art.
+Ascii-art-web consists in creating and running a server, in which it will be possible to use a web GUI (graphical user interface) version of your last project, ascii-art.
 
 The webpage allows use of the different banners:
 
@@ -39,6 +39,7 @@ After cloning the repository, complete the following commands:
 
     - Run the programm
         go run .
+        
       After that command click on the localhost link
       
     - Create a docker image with the docker file:
